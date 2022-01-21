@@ -27,7 +27,7 @@ class Calculator {
 	}
 
 	sign(value) {
-		
+
 	}
 
 
