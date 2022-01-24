@@ -59,7 +59,7 @@ class Calculator {
 		const [ num1, num2 ] = display.value.split(this.operator)
 		switch(this.operator) {
 			case '+': {
-				display.value = num1 + num2
+				display.value = +num1 + +num2
 				break
 			}
 			case '-': {
